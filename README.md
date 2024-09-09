@@ -16,9 +16,10 @@ This is a template repository for creating a podcast site with [podbard](https:/
     - After the push, the GitHub Actions will build the site and deploy it to the GitHub Pages
     - Check [.github/workflows/build-deploy-pages.yaml](./.github/workflows/build-deploy-pages.yaml) for specific settings
 
-## Setting for GitHub Pages
+## Setting for Cloudflare Pages and R2
 
-To enable the GitHub Pages, you need to set the `gh-pages` branch as the source of the GitHub Pages in the repository settings. Setting -> Pages -> Build and deployment -> Branch.
+This template is designed to upload page content to Cloudflare Pages and audio files to Cloudflare R2. Look at the GitHub Actions workflow files under the .github directory and set the necessary values.
+
 
 You can manage the podcast site with the `podbard` command for more customization.
 
