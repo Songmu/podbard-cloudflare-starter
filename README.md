@@ -12,14 +12,13 @@ This is a template repository for creating a podcast site with [podbard](https:/
 3. Locate the episode files (Markdown) and commit them
     - Put the episode files in the `episode/` directory (You should remove the sample files)
     - Hint: You can use the `podbard episode <your.mp3>` subcommand to create a new episode file
-4. Push, build and deploy to the GitHub Pages
-    - After the push, the GitHub Actions will build the site and deploy it to the GitHub Pages
-    - Check [.github/workflows/build-deploy-pages.yaml](./.github/workflows/build-deploy-pages.yaml) for specific settings
+4. Push, build and deploy to the Cloudflare Pages and R2
+    - After the push, the GitHub Actions will build the site and deploy it to the Cloudflare Pages and R2
+    - Check [.github/workflows/](./.github/workflows/) for specific settings
 
 ## Setting for Cloudflare Pages and R2
 
 This template is designed to upload page content to Cloudflare Pages and audio files to Cloudflare R2. Look at the GitHub Actions workflow files under the .github directory and set the necessary values.
-
 
 You can manage the podcast site with the `podbard` command for more customization.
 
