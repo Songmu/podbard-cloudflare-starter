@@ -1,11 +1,11 @@
 channel:
-  link: https://junkyard.song.mu/podbard-starter/
+  link: https://your-podcast.example.com/
   title: podbard starter
   description: podbard starter
   language: ja-JP
   category: "Techlogy"
-  author: Songmu
-  email: y.songmu@gmail.com
+  author: yourname
+  email: youremail@example.com
   artwork: "images/artwork.jpg" # url or path
 
 timezone: Asia/Tokyo
