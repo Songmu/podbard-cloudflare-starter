@@ -1,11 +1,9 @@
-# yaml-language-server: $schema=https://raw.githubusercontent.com/Songmu/podbard/refs/heads/main/schema.yaml
-
 channel:
   link: https://your-podcast.example.com/
   title: podbard starter
   description: podbard starter
   language: ja-JP
-  category: "Techlogy"
+  category: "Technology"
   author: yourname
   email: youremail@example.com
   artwork: "images/artwork.jpg" # url or path
